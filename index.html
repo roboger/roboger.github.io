@@ -33,14 +33,14 @@
 						<div class="NEhTit">
 							<p>软件列表</p>
 							<ul>
-								<li><a></a>最新游戏</li>
-								<li><a></a>热门游戏</li>
+								<li><a></a>最新</li>
+								<li><a></a>热门</li>
 							</ul>
 						</div>
 						<div class="NEhClass">
 							<ul>
-								<li><a></a>客户端游戏</li>
-								<li><a></a>手机端游戏</li>
+								<li><a></a>客户端</li>
+								<li><a></a>手机端</li>
 							</ul>
 						</div>
 						<div class="NEhItem">
@@ -569,10 +569,10 @@ if(/AppleWebKit.*Mobile/i.test(navigator.userAgent) || (/MIDP|SymbianOS|NOKIA|SA
     if(window.location.href.indexOf("?mobile")<0){
         try{
             if(/Android|webOS|iPhone|iPod|BlackBerry/i.test(navigator.userAgent)){
-                window.location.href="m/index.html";
+                window.location.href="/index.html";
             }else if(/iPad/i.test(navigator.userAgent)){
             }else{
-                window.location.href="m/index.html";
+                window.location.href="/index.html";
             }
         }catch(e){}
     }
