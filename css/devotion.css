@@ -47,7 +47,7 @@ html,body{position: relative;height: 100%;}
 .dbtn .btna:hover{opacity:1;background-position-x:-100px;}
 .dbtn div{width:0;overflow:hidden;height:100px;background-color:rgba(0,0,0,.7);position: absolute;right: 100px;transition:width 0.3s}
 .dbtn div ul{width:100%;}
-.dbtn div ul li{float:left;width:115px;height:100px;margin:0 10px;text-align:center;position:relative;}
+.dbtn div ul li{float:left;width:125px;height:100px;margin:0 10px;text-align:center;position:relative;}
 .dbtn div ul li:first-child{margin-left: 27px;}
 .dbtn div ul li i{position:absolute;right:-15px;top:33px;font-style:normal}
 .dbtn div ul li a{color:#fff;font-size:0.9rem;line-height:100px;transition:opacity 1s;}
